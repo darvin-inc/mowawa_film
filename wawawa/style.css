@@ -19,3 +19,32 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+nav a {
+    text-decoration : none;
+    margin-right: 7px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+article{
+    width: calc(890px / 3);
+    height: 350px;
+    background-color: rgb(56, 65, 123);
+    border-radius:19px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    border-radius: 19px;
+     width: calc(890px / 3);
+     height: 300px;
+   
+}
+h2{
+  text-align: center
+}
